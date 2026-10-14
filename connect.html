@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    WRITTEN BY: Bianca Cataniag
+    EMAIL: cataniab@uci.edu
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bianca Cataniag - Connect</title>
+        <link rel="stylesheet" href="styles/paper.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar">
+                <a href="index.html" class="nav-brand">bianca cataniag</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="connect.html" class="active">connect</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="connect-section">
+                <h1 class="page-header">let’s connect!</h1>
+                <p class="connect-desc">whether you want to discuss new opportunities, design something cool, or even chat about stuff like the wnba, i’m always open! feel free to send over a message and i’ll be sure to respond within the next 24-48 hours.</p>
+
+                <div class="connect-links-row">
+                    <a href="mailto:biancaymcataniag@gmail.com" class="connect-pill">
+                        <span class="material-icons pill-icon">mail</span>
+                        <span>email: biancaymcataniag@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bianca-cataniag/" target="_blank" rel="noopener noreferrer" class="connect-pill">
+                        <span class="material-icons pill-icon">link</span>
+                        <span>linkedin profile</span>
+                    </a>
+                </div>
+
+                <!-- Contact Form feature inspired by Noah Tizon's portfolio template -->
+                <div class="contact-form-container">
+                    <h2>send a message</h2>
+                    <form action="mailto:biancaymcataniag@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">your name</label>
+                            <input type="text" id="name" name="name" required placeholder="enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">your email</label>
+                            <input type="email" id="email" name="email" required placeholder="enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">your message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">send message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>bianca cataniag, creative in ui/ux</p>
+        </footer>
+    </body>
+</html>
